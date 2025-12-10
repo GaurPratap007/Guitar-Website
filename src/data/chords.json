@@ -1,0 +1,100 @@
+{
+  "C": { "fretting": [ "x", 3, 2, 0, 1, 0 ], "fingering": ["x","3","2","","1",""], "baseFret": 1, "strings": 6, "label": "C" },
+  "Cm": { "fretting": [ "x", 3, 5, 5, 4, 3 ], "baseFret": 3, "strings": 6, "label": "Cm" },
+  "C7": { "fretting": [ "x", 3, 2, 3, 1, 0 ], "fingering": ["x","3","2","4","1",""], "baseFret": 1, "label": "C7" },
+  "Cmaj7": { "fretting": [ "x", 3, 2, 0, 0, 0 ], "label": "Cmaj7" },
+  "Csus2": { "fretting": [ "x", 3, 0, 0, 1, 3 ], "label": "Csus2" },
+  "Csus4": { "fretting": [ "x", 3, 3, 0, 1, 1 ], "label": "Csus4" },
+  "Cadd9": { "fretting": [ "x", 3, 2, 0, 3, 3 ], "label": "Cadd9" },
+  "C/E": { "fretting": [ 0, 3, 2, 0, 1, 0 ], "label": "C/E" },
+  "C/G": { "fretting": [ 3, 3, 2, 0, 1, 0 ], "label": "C/G" },
+
+  "C#": { "fretting": [ "x", 4, 6, 6, 6, 4 ], "baseFret": 4, "label": "C#" },
+  "C#m": { "fretting": [ "x", 4, 6, 6, 5, 4 ], "baseFret": 4, "label": "C#m" },
+  "C#7": { "fretting": [ "x", 4, 6, 4, 6, 4 ], "baseFret": 4, "label": "C#7" },
+  "C#maj7": { "fretting": [ "x", 4, 6, 5, 6, 4 ], "baseFret": 4, "label": "C#maj7" },
+  "C#sus2": { "fretting": [ "x", 4, 6, 6, 4, 4 ], "baseFret": 4, "label": "C#sus2" },
+  "C#sus4": { "fretting": [ "x", 4, 6, 6, 7, 4 ], "baseFret": 4, "label": "C#sus4" },
+  "C#add9": { "fretting": [ "x", 4, 6, 6, 6, 6 ], "baseFret": 4, "label": "C#add9" },
+
+  "Db": { "fretting": [ "x", 4, 6, 6, 6, 4 ], "baseFret": 4, "label": "Db" },
+  "Dbm": { "fretting": [ "x", 4, 6, 6, 5, 4 ], "baseFret": 4, "label": "Dbm" },
+
+  "D": { "fretting": [ "x", "x", 0, 2, 3, 2 ], "fingering": ["x","x","","1","3","2"], "label": "D" },
+  "Dm": { "fretting": [ "x", "x", 0, 2, 3, 1 ], "fingering": ["x","x","","2","3","1"], "label": "Dm" },
+  "D7": { "fretting": [ "x", "x", 0, 2, 1, 2 ], "label": "D7" },
+  "Dmaj7": { "fretting": [ "x", "x", 0, 2, 2, 2 ], "label": "Dmaj7" },
+  "Dsus2": { "fretting": [ "x", "x", 0, 2, 3, 0 ], "label": "Dsus2" },
+  "Dsus4": { "fretting": [ "x", "x", 0, 2, 3, 3 ], "label": "Dsus4" },
+  "D/F#": { "fretting": [ 2, "x", 0, 2, 3, 2 ], "label": "D/F#" },
+
+  "D#": { "fretting": [ "x", "x", 1, 3, 4, 3 ], "baseFret": 1, "label": "D#" },
+  "D#m": { "fretting": [ "x", "x", 1, 3, 4, 2 ], "baseFret": 1, "label": "D#m" },
+  "Eb": { "fretting": [ "x", "x", 1, 3, 4, 3 ], "label": "Eb" },
+  "Ebm": { "fretting": [ "x", "x", 1, 3, 4, 2 ], "label": "Ebm" },
+
+  "E": { "fretting": [ 0, 2, 2, 1, 0, 0 ], "fingering": ["","2","3","1","",""], "label": "E" },
+  "Em": { "fretting": [ 0, 2, 2, 0, 0, 0 ], "fingering": ["","2","3","","",""], "label": "Em" },
+  "E7": { "fretting": [ 0, 2, 0, 1, 0, 0 ], "label": "E7" },
+  "Emaj7": { "fretting": [ 0, 2, 1, 1, 0, 0 ], "label": "Emaj7" },
+  "Esus2": { "fretting": [ 0, 2, 4, 4, 0, 0 ], "baseFret": 2, "label": "Esus2" },
+  "Esus4": { "fretting": [ 0, 2, 2, 2, 0, 0 ], "label": "Esus4" },
+
+  "F": { "fretting": [ 1, 3, 3, 2, 1, 1 ], "baseFret": 1, "label": "F" },
+  "Fm": { "fretting": [ 1, 3, 3, 1, 1, 1 ], "baseFret": 1, "label": "Fm" },
+  "F7": { "fretting": [ 1, 3, 1, 2, 1, 1 ], "baseFret": 1, "label": "F7" },
+  "Fmaj7": { "fretting": [ 1, "x", 3, 2, 1, 0 ], "label": "Fmaj7" },
+  "Fsus2": { "fretting": [ 1, 3, 3, 0, 1, 1 ], "label": "Fsus2" },
+  "Fsus4": { "fretting": [ 1, 3, 3, 3, 1, 1 ], "label": "Fsus4" },
+
+  "F#": { "fretting": [ 2, 4, 4, 3, 2, 2 ], "baseFret": 1, "label": "F#" },
+  "F#m": { "fretting": [ 2, 4, 4, 2, 2, 2 ], "baseFret": 1, "label": "F#m" },
+  "F#7": { "fretting": [ 2, 4, 2, 3, 2, 2 ], "baseFret": 1, "label": "F#7" },
+  "F#maj7": { "fretting": [ 2, 4, 3, 3, 2, 2 ], "baseFret": 1, "label": "F#maj7" },
+  "F#sus2": { "fretting": [ 2, 4, 4, 1, 2, 2 ], "baseFret": 1, "label": "F#sus2" },
+  "F#sus4": { "fretting": [ 2, 4, 4, 4, 2, 2 ], "baseFret": 1, "label": "F#sus4" },
+
+  "Gb": { "fretting": [ 2, 4, 4, 3, 2, 2 ], "label": "Gb" },
+  "Gbm": { "fretting": [ 2, 4, 4, 2, 2, 2 ], "label": "Gbm" },
+
+  "G": { "fretting": [ 3, 2, 0, 0, 0, 3 ], "fingering": ["3","2","","","","3"], "label": "G" },
+  "Gm": { "fretting": [ 3, 5, 5, 3, 3, 3 ], "baseFret": 3, "label": "Gm" },
+  "G7": { "fretting": [ 3, 2, 0, 0, 0, 1 ], "label": "G7" },
+  "Gmaj7": { "fretting": [ 3, "x", 4, 4, 3, "x" ], "baseFret": 2, "label": "Gmaj7" },
+  "Gsus2": { "fretting": [ 3, 5, 5, 2, 3, 3 ], "baseFret": 3, "label": "Gsus2" },
+  "Gsus4": { "fretting": [ 3, 5, 5, 5, 3, 3 ], "baseFret": 3, "label": "Gsus4" },
+  "G/B": { "fretting": [ "x", 2, 0, 0, 0, 3 ], "label": "G/B" },
+
+  "G#": { "fretting": [ 4, 6, 6, 5, 4, 4 ], "label": "G#" },
+  "G#m": { "fretting": [ 4, 6, 6, 4, 4, 4 ], "label": "G#m" },
+  "Ab": { "fretting": [ 4, 6, 6, 5, 4, 4 ], "label": "Ab" },
+  "Abm": { "fretting": [ 4, 6, 6, 4, 4, 4 ], "label": "Abm" },
+
+  "A": { "fretting": [ "x", 0, 2, 2, 2, 0 ], "label": "A" },
+  "Am": { "fretting": [ "x", 0, 2, 2, 1, 0 ], "label": "Am" },
+  "A7": { "fretting": [ "x", 0, 2, 0, 2, 0 ], "label": "A7" },
+  "Amaj7": { "fretting": [ "x", 0, 2, 1, 2, 0 ], "label": "Amaj7" },
+  "Asus2": { "fretting": [ "x", 0, 2, 2, 0, 0 ], "label": "Asus2" },
+  "Asus4": { "fretting": [ "x", 0, 2, 2, 3, 0 ], "label": "Asus4" },
+
+  "A#": { "fretting": [ "x", 1, 3, 3, 3, 1 ], "label": "A#" },
+  "A#m": { "fretting": [ "x", 1, 3, 3, 2, 1 ], "label": "A#m" },
+  "Bb": { "fretting": [ "x", 1, 3, 3, 3, 1 ], "label": "Bb" },
+  "Bbm": { "fretting": [ "x", 1, 3, 3, 2, 1 ], "label": "Bbm" },
+
+  "B": { "fretting": [ "x", 2, 4, 4, 4, 2 ], "label": "B" },
+  "Bm": { "fretting": [ "x", 2, 4, 4, 3, 2 ], "label": "Bm" },
+  "B7": { "fretting": [ "x", 2, 1, 2, 0, 2 ], "label": "B7" },
+  "Bmaj7": { "fretting": [ "x", 2, 4, 3, 4, 2 ], "label": "Bmaj7" },
+
+  "Em7": { "fretting": [ 0, 2, 2, 0, 3, 0 ], "label": "Em7" },
+  "D/F#": { "fretting": [ 2, "x", 0, 2, 3, 2 ], "label": "D/F#" },
+  "F#m": { "fretting": [ 2, 4, 4, 2, 2, 2 ], "label": "F#m" },
+  "F#m7": { "fretting": [ 2, 4, 2, 2, 2, 2 ], "label": "F#m7" },
+  "Gm7": { "fretting": [ 3, 5, 3, 3, 3, 3 ], "baseFret": 3, "label": "Gm7" },
+  "G7/B": { "fretting": [ "x", 2, 0, 0, 0, 1 ], "label": "G7/B" },
+  "Eadd9": { "fretting": [ 0, 2, 4, 1, 0, 0 ], "baseFret": 2, "label": "Eadd9" },
+  "Dadd9": { "fretting": [ "x", "x", 0, 2, 3, 0 ], "label": "Dadd9" }
+}
+
+

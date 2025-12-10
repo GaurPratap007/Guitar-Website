@@ -1,0 +1,10 @@
+{
+  "entries": [
+    { "id": "rivers", "title": "Rivers (placeholder)", "artist": "Demo Artist", "key": "G", "capo": 0, "tags": ["folk","acoustic"] },
+    { "id": "starlight", "title": "Starlight (placeholder)", "artist": "Demo Artist", "key": "D", "capo": 2, "tags": ["pop","ballad"] },
+    { "id": "horizon", "title": "Horizon (placeholder)", "artist": "Demo Artist", "key": "C", "capo": 0, "tags": ["indie","mid-tempo"] }
+  ],
+  "songs": {}
+}
+
+

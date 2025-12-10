@@ -1,0 +1,39 @@
+# Node
+node_modules/
+dist/
+.vite/
+.cache/
+.tmp/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+*.tsbuildinfo
+
+# Editors/OS
+.DS_Store
+.idea/
+.vscode/
+
+# Env
+.env
+.env.*
+*.local
+
+# Coverage
+coverage/
+
+# Python virtualenvs (avoid accidental inclusion)
+.venv/
+__pycache__/
+
+node_modules
+dist
+.DS_Store
+.vite
+coverage
+*.log
+public/content-index.json
+
+
