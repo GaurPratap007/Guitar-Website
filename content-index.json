@@ -1,0 +1,2463 @@
+{
+  "entries": [
+    {
+      "id": "husn-anuv-jain",
+      "title": "Husn",
+      "artist": "Anuv Jain",
+      "key": "F",
+      "capo": 5,
+      "tags": [
+        "hindi",
+        "indie",
+        "acoustic"
+      ]
+    },
+    {
+      "id": "rivers",
+      "title": "Rivers (placeholder)",
+      "artist": "Demo Artist",
+      "key": "G",
+      "capo": 0,
+      "tags": [
+        "folk",
+        "acoustic"
+      ]
+    },
+    {
+      "id": "starlight",
+      "title": "Starlight (placeholder)",
+      "artist": "Demo Artist",
+      "key": "D",
+      "capo": 2,
+      "tags": [
+        "pop",
+        "ballad"
+      ]
+    },
+    {
+      "id": "horizon",
+      "title": "Horizon (placeholder)",
+      "artist": "Demo Artist",
+      "key": "C",
+      "capo": 0,
+      "tags": [
+        "indie",
+        "mid-tempo"
+      ]
+    },
+    {
+      "id": "ember",
+      "title": "Ember (placeholder)",
+      "artist": "Demo Artist",
+      "key": "E",
+      "capo": 0,
+      "tags": [
+        "rock"
+      ]
+    },
+    {
+      "id": "lanterns",
+      "title": "Lanterns (placeholder)",
+      "artist": "Demo Artist",
+      "key": "A",
+      "capo": 0,
+      "tags": [
+        "folk"
+      ]
+    },
+    {
+      "id": "skylines",
+      "title": "Skylines (placeholder)",
+      "artist": "Demo Artist",
+      "key": "Bb",
+      "capo": 1,
+      "tags": [
+        "pop"
+      ]
+    }
+  ],
+  "songs": {
+    "husn-anuv-jain": {
+      "frontmatter": {
+        "id": "husn-anuv-jain",
+        "title": "Husn",
+        "artist": "Anuv Jain",
+        "key": "F",
+        "capo": 5,
+        "youtube_id": "w84DEhttnlA",
+        "tags": [
+          "hindi",
+          "indie",
+          "acoustic"
+        ]
+      },
+      "ast": [
+        {
+          "kind": "blank"
+        },
+        {
+          "kind": "comment",
+          "text": "Tuning: E A D G B E"
+        },
+        {
+          "kind": "blank"
+        },
+        {
+          "kind": "comment",
+          "text": "Intro"
+        },
+        {
+          "kind": "inline",
+          "tokens": [
+            {
+              "type": "chord",
+              "raw": "[F]",
+              "root": "F",
+              "quality": ""
+            },
+            {
+              "type": "lyric",
+              "text": " "
+            },
+            {
+              "type": "chord",
+              "raw": "[C]",
+              "root": "C",
+              "quality": ""
+            }
+          ]
+        },
+        {
+          "kind": "inline",
+          "tokens": [
+            {
+              "type": "chord",
+              "raw": "[E7]",
+              "root": "E",
+              "quality": "7"
+            },
+            {
+              "type": "lyric",
+              "text": " "
+            },
+            {
+              "type": "chord",
+              "raw": "[Am]",
+              "root": "A",
+              "quality": "m"
+            },
+            {
+              "type": "lyric",
+              "text": " "
+            },
+            {
+              "type": "chord",
+              "raw": "[G]",
+              "root": "G",
+              "quality": ""
+            }
+          ]
+        },
+        {
+          "kind": "inline",
+          "tokens": [
+            {
+              "type": "lyric",
+              "text": "Aaaa Aaaa"
+            }
+          ]
+        },
+        {
+          "kind": "blank"
+        },
+        {
+          "kind": "comment",
+          "text": "Verse 1"
+        },
+        {
+          "kind": "inline",
+          "tokens": [
+            {
+              "type": "chord",
+              "raw": "[F]",
+              "root": "F",
+              "quality": ""
+            },
+            {
+              "type": "lyric",
+              "text": "Dekho Dekho Kaisi baatein yahan ki"
+            }
+          ]
+        },
+        {
+          "kind": "inline",
+          "tokens": [
+            {
+              "type": "chord",
+              "raw": "[C]",
+              "root": "C",
+              "quality": ""
+            },
+            {
+              "type": "lyric",
+              "text": "Hain saath par Hain saath na bhi"
+            }
+          ]
+        },
+        {
+          "kind": "inline",
+          "tokens": [
+            {
+              "type": "chord",
+              "raw": "[E7]",
+              "root": "E",
+              "quality": "7"
+            },
+            {
+              "type": "lyric",
+              "text": "Kya itni "
+            },
+            {
+              "type": "chord",
+              "raw": "[Am]",
+              "root": "A",
+              "quality": "m"
+            },
+            {
+              "type": "lyric",
+              "text": "aasaan "
+            },
+            {
+              "type": "chord",
+              "raw": "[G]",
+              "root": "G",
+              "quality": ""
+            },
+            {
+              "type": "lyric",
+              "text": "hain?"
+            }
+          ]
+        },
+        {
+          "kind": "blank"
+        },
+        {
+          "kind": "inline",
+          "tokens": [
+            {
+              "type": "chord",
+              "raw": "[F]",
+              "root": "F",
+              "quality": ""
+            },
+            {
+              "type": "lyric",
+              "text": "Dekho Dekho Jaise mere iraaday"
+            }
+          ]
+        },
+        {
+          "kind": "inline",
+          "tokens": [
+            {
+              "type": "chord",
+              "raw": "[C]",
+              "root": "C",
+              "quality": ""
+            },
+            {
+              "type": "lyric",
+              "text": "Waise kahaan Tere yahan the"
+            }
+          ]
+        },
+        {
+          "kind": "inline",
+          "tokens": [
+            {
+              "type": "chord",
+              "raw": "[E7]",
+              "root": "E",
+              "quality": "7"
+            },
+            {
+              "type": "lyric",
+              "text": "Haan kitni "
+            },
+            {
+              "type": "chord",
+              "raw": "[Am]",
+              "root": "A",
+              "quality": "m"
+            },
+            {
+              "type": "lyric",
+              "text": "naadan "
+            },
+            {
+              "type": "chord",
+              "raw": "[G]",
+              "root": "G",
+              "quality": ""
+            },
+            {
+              "type": "lyric",
+              "text": "main"
+            }
+          ]
+        },
+        {
+          "kind": "blank"
+        },
+        {
+          "kind": "comment",
+          "text": "Chorus 1"
+        },
+        {
+          "kind": "inline",
+          "tokens": [
+            {
+              "type": "lyric",
+              "text": "    "
+            },
+            {
+              "type": "chord",
+              "raw": "[F]",
+              "root": "F",
+              "quality": ""
+            },
+            {
+              "type": "lyric",
+              "text": "Mere husn ke ilawa"
+            }
+          ]
+        },
+        {
+          "kind": "inline",
+          "tokens": [
+            {
+              "type": "lyric",
+              "text": "      "
+            },
+            {
+              "type": "chord",
+              "raw": "[C]",
+              "root": "C",
+              "quality": ""
+            },
+            {
+              "type": "lyric",
+              "text": "Kabhi dil bhi "
+            },
+            {
+              "type": "chord",
+              "raw": "[G]",
+              "root": "G",
+              "quality": ""
+            },
+            {
+              "type": "lyric",
+              "text": "maang lo na"
+            }
+          ]
+        },
+        {
+          "kind": "inline",
+          "tokens": [
+            {
+              "type": "lyric",
+              "text": "     "
+            },
+            {
+              "type": "chord",
+              "raw": "[F]",
+              "root": "F",
+              "quality": ""
+            },
+            {
+              "type": "lyric",
+              "text": "Haye pal mein"
+            }
+          ]
+        },
+        {
+          "kind": "inline",
+          "tokens": [
+            {
+              "type": "lyric",
+              "text": "                 "
+            },
+            {
+              "type": "chord",
+              "raw": "[G]",
+              "root": "G",
+              "quality": ""
+            },
+            {
+              "type": "lyric",
+              "text": "Main pighal jaun haan"
+            }
+          ]
+        },
+        {
+          "kind": "blank"
+        },
+        {
+          "kind": "inline",
+          "tokens": [
+            {
+              "type": "lyric",
+              "text": "   "
+            },
+            {
+              "type": "chord",
+              "raw": "[F]",
+              "root": "F",
+              "quality": ""
+            },
+            {
+              "type": "lyric",
+              "text": "Ab aisa na karo"
+            }
+          ]
+        },
+        {
+          "kind": "inline",
+          "tokens": [
+            {
+              "type": "lyric",
+              "text": "       "
+            },
+            {
+              "type": "chord",
+              "raw": "[C]",
+              "root": "C",
+              "quality": ""
+            },
+            {
+              "type": "lyric",
+              "text": "Ke dil judna "
+            },
+            {
+              "type": "chord",
+              "raw": "[G]",
+              "root": "G",
+              "quality": ""
+            },
+            {
+              "type": "lyric",
+              "text": "paye wapis"
+            }
+          ]
+        },
+        {
+          "kind": "inline",
+          "tokens": [
+            {
+              "type": "lyric",
+              "text": "     "
+            },
+            {
+              "type": "chord",
+              "raw": "[F]",
+              "root": "F",
+              "quality": ""
+            },
+            {
+              "type": "lyric",
+              "text": "Teri baaton"
+            }
+          ]
+        },
+        {
+          "kind": "inline",
+          "tokens": [
+            {
+              "type": "lyric",
+              "text": "               "
+            },
+            {
+              "type": "chord",
+              "raw": "[G]",
+              "root": "G",
+              "quality": ""
+            },
+            {
+              "type": "lyric",
+              "text": "Se bikhar jaun haan"
+            }
+          ]
+        },
+        {
+          "kind": "blank"
+        },
+        {
+          "kind": "comment",
+          "text": "Verse 2"
+        },
+        {
+          "kind": "inline",
+          "tokens": [
+            {
+              "type": "chord",
+              "raw": "[F]",
+              "root": "F",
+              "quality": ""
+            },
+            {
+              "type": "lyric",
+              "text": "Mana zamana hai deewana"
+            }
+          ]
+        },
+        {
+          "kind": "inline",
+          "tokens": [
+            {
+              "type": "chord",
+              "raw": "[C]",
+              "root": "C",
+              "quality": ""
+            },
+            {
+              "type": "lyric",
+              "text": "Isilye tune na jana"
+            }
+          ]
+        },
+        {
+          "kind": "inline",
+          "tokens": [
+            {
+              "type": "chord",
+              "raw": "[E7]",
+              "root": "E",
+              "quality": "7"
+            },
+            {
+              "type": "lyric",
+              "text": "Tere liye main"
+            }
+          ]
+        },
+        {
+          "kind": "inline",
+          "tokens": [
+            {
+              "type": "lyric",
+              "text": "      "
+            },
+            {
+              "type": "chord",
+              "raw": "[Am]",
+              "root": "A",
+              "quality": "m"
+            },
+            {
+              "type": "lyric",
+              "text": "Kaafi "
+            },
+            {
+              "type": "chord",
+              "raw": "[G]",
+              "root": "G",
+              "quality": ""
+            },
+            {
+              "type": "lyric",
+              "text": "hoon"
+            }
+          ]
+        },
+        {
+          "kind": "blank"
+        },
+        {
+          "kind": "inline",
+          "tokens": [
+            {
+              "type": "chord",
+              "raw": "[F]",
+              "root": "F",
+              "quality": ""
+            },
+            {
+              "type": "lyric",
+              "text": "Dekho Dekho Yeh zamane se thak kar"
+            }
+          ]
+        },
+        {
+          "kind": "inline",
+          "tokens": [
+            {
+              "type": "chord",
+              "raw": "[C]",
+              "root": "C",
+              "quality": ""
+            },
+            {
+              "type": "lyric",
+              "text": "Atey ho kyun masoom ban kar?"
+            }
+          ]
+        },
+        {
+          "kind": "inline",
+          "tokens": [
+            {
+              "type": "chord",
+              "raw": "[E7]",
+              "root": "E",
+              "quality": "7"
+            },
+            {
+              "type": "lyric",
+              "text": "Tere liye main"
+            }
+          ]
+        },
+        {
+          "kind": "inline",
+          "tokens": [
+            {
+              "type": "lyric",
+              "text": "       "
+            },
+            {
+              "type": "chord",
+              "raw": "[Am]",
+              "root": "A",
+              "quality": "m"
+            },
+            {
+              "type": "lyric",
+              "text": "Kya hi "
+            },
+            {
+              "type": "chord",
+              "raw": "[G]",
+              "root": "G",
+              "quality": ""
+            },
+            {
+              "type": "lyric",
+              "text": "hoon?"
+            }
+          ]
+        },
+        {
+          "kind": "blank"
+        },
+        {
+          "kind": "comment",
+          "text": "Chorus 2"
+        },
+        {
+          "kind": "inline",
+          "tokens": [
+            {
+              "type": "lyric",
+              "text": "     "
+            },
+            {
+              "type": "chord",
+              "raw": "[F]",
+              "root": "F",
+              "quality": ""
+            },
+            {
+              "type": "lyric",
+              "text": "Phir aatey kyun yahan"
+            }
+          ]
+        },
+        {
+          "kind": "inline",
+          "tokens": [
+            {
+              "type": "lyric",
+              "text": "      "
+            },
+            {
+              "type": "chord",
+              "raw": "[C]",
+              "root": "C",
+              "quality": ""
+            },
+            {
+              "type": "lyric",
+              "text": "Karne aankhon mein "
+            },
+            {
+              "type": "chord",
+              "raw": "[G]",
+              "root": "G",
+              "quality": ""
+            },
+            {
+              "type": "lyric",
+              "text": "Ho baarish?"
+            }
+          ]
+        },
+        {
+          "kind": "inline",
+          "tokens": [
+            {
+              "type": "lyric",
+              "text": "   "
+            },
+            {
+              "type": "chord",
+              "raw": "[F]",
+              "root": "F",
+              "quality": ""
+            },
+            {
+              "type": "lyric",
+              "text": "Ab aye"
+            }
+          ]
+        },
+        {
+          "kind": "inline",
+          "tokens": [
+            {
+              "type": "lyric",
+              "text": "              "
+            },
+            {
+              "type": "chord",
+              "raw": "[G]",
+              "root": "G",
+              "quality": ""
+            },
+            {
+              "type": "lyric",
+              "text": "Toh theher jao na"
+            }
+          ]
+        },
+        {
+          "kind": "blank"
+        },
+        {
+          "kind": "inline",
+          "tokens": [
+            {
+              "type": "lyric",
+              "text": "    "
+            },
+            {
+              "type": "chord",
+              "raw": "[F]",
+              "root": "F",
+              "quality": ""
+            },
+            {
+              "type": "lyric",
+              "text": "Aur poocho na zara"
+            }
+          ]
+        },
+        {
+          "kind": "inline",
+          "tokens": [
+            {
+              "type": "lyric",
+              "text": "     "
+            },
+            {
+              "type": "chord",
+              "raw": "[C]",
+              "root": "C",
+              "quality": ""
+            },
+            {
+              "type": "lyric",
+              "text": "Mere din ke bare mein "
+            },
+            {
+              "type": "chord",
+              "raw": "[G]",
+              "root": "G",
+              "quality": ""
+            },
+            {
+              "type": "lyric",
+              "text": "bhi"
+            }
+          ]
+        },
+        {
+          "kind": "inline",
+          "tokens": [
+            {
+              "type": "lyric",
+              "text": "    "
+            },
+            {
+              "type": "chord",
+              "raw": "[F]",
+              "root": "F",
+              "quality": ""
+            },
+            {
+              "type": "lyric",
+              "text": "Bas itne mein "
+            },
+            {
+              "type": "chord",
+              "raw": "[G]",
+              "root": "G",
+              "quality": ""
+            },
+            {
+              "type": "lyric",
+              "text": "Sambhal jaun haan"
+            }
+          ]
+        },
+        {
+          "kind": "blank"
+        },
+        {
+          "kind": "comment",
+          "text": "Pre-bridge"
+        },
+        {
+          "kind": "inline",
+          "tokens": [
+            {
+              "type": "lyric",
+              "text": "        "
+            },
+            {
+              "type": "chord",
+              "raw": "[F]",
+              "root": "F",
+              "quality": ""
+            },
+            {
+              "type": "lyric",
+              "text": "Haan ek din "
+            },
+            {
+              "type": "chord",
+              "raw": "[Am]",
+              "root": "A",
+              "quality": "m"
+            },
+            {
+              "type": "lyric",
+              "text": "Kabhi koi"
+            }
+          ]
+        },
+        {
+          "kind": "inline",
+          "tokens": [
+            {
+              "type": "lyric",
+              "text": "        "
+            },
+            {
+              "type": "chord",
+              "raw": "[F]",
+              "root": "F",
+              "quality": ""
+            },
+            {
+              "type": "lyric",
+              "text": "Jab bhi padhe "
+            },
+            {
+              "type": "chord",
+              "raw": "[C]",
+              "root": "C",
+              "quality": ""
+            },
+            {
+              "type": "lyric",
+              "text": "Kahani teri"
+            }
+          ]
+        },
+        {
+          "kind": "inline",
+          "tokens": [
+            {
+              "type": "lyric",
+              "text": "      "
+            },
+            {
+              "type": "chord",
+              "raw": "[E7]",
+              "root": "E",
+              "quality": "7"
+            },
+            {
+              "type": "lyric",
+              "text": "Lagta mujhe "
+            },
+            {
+              "type": "chord",
+              "raw": "[Am]",
+              "root": "A",
+              "quality": "m"
+            },
+            {
+              "type": "lyric",
+              "text": "Mere naam ka"
+            }
+          ]
+        },
+        {
+          "kind": "inline",
+          "tokens": [
+            {
+              "type": "lyric",
+              "text": "     "
+            },
+            {
+              "type": "chord",
+              "raw": "[F]",
+              "root": "F",
+              "quality": ""
+            },
+            {
+              "type": "lyric",
+              "text": "Zikr kahin "
+            },
+            {
+              "type": "chord",
+              "raw": "[G]",
+              "root": "G",
+              "quality": ""
+            },
+            {
+              "type": "lyric",
+              "text": "Bhi hoga nahin"
+            }
+          ]
+        },
+        {
+          "kind": "blank"
+        },
+        {
+          "kind": "comment",
+          "text": "Bridge"
+        },
+        {
+          "kind": "inline",
+          "tokens": [
+            {
+              "type": "chord",
+              "raw": "[C]",
+              "root": "C",
+              "quality": ""
+            },
+            {
+              "type": "lyric",
+              "text": "Haan"
+            }
+          ]
+        },
+        {
+          "kind": "inline",
+          "tokens": [
+            {
+              "type": "lyric",
+              "text": "     "
+            },
+            {
+              "type": "chord",
+              "raw": "[Am]",
+              "root": "A",
+              "quality": "m"
+            },
+            {
+              "type": "lyric",
+              "text": "Main yahin"
+            }
+          ]
+        },
+        {
+          "kind": "inline",
+          "tokens": [
+            {
+              "type": "lyric",
+              "text": "         "
+            },
+            {
+              "type": "chord",
+              "raw": "[F]",
+              "root": "F",
+              "quality": ""
+            },
+            {
+              "type": "lyric",
+              "text": "Meri yeh aankhon mein"
+            }
+          ]
+        },
+        {
+          "kind": "inline",
+          "tokens": [
+            {
+              "type": "lyric",
+              "text": "                 "
+            },
+            {
+              "type": "chord",
+              "raw": "[G]",
+              "root": "G",
+              "quality": ""
+            },
+            {
+              "type": "lyric",
+              "text": "Aankhon mein toh dekho"
+            }
+          ]
+        },
+        {
+          "kind": "blank"
+        },
+        {
+          "kind": "inline",
+          "tokens": [
+            {
+              "type": "lyric",
+              "text": "          "
+            },
+            {
+              "type": "chord",
+              "raw": "[C]",
+              "root": "C",
+              "quality": ""
+            },
+            {
+              "type": "lyric",
+              "text": "Dekho yeh dil ka haal kya"
+            }
+          ]
+        },
+        {
+          "kind": "inline",
+          "tokens": [
+            {
+              "type": "lyric",
+              "text": "          "
+            },
+            {
+              "type": "chord",
+              "raw": "[Am]",
+              "root": "A",
+              "quality": "m"
+            },
+            {
+              "type": "lyric",
+              "text": "Hothon se hota na bayan"
+            }
+          ]
+        },
+        {
+          "kind": "inline",
+          "tokens": [
+            {
+              "type": "lyric",
+              "text": "         "
+            },
+            {
+              "type": "chord",
+              "raw": "[F]",
+              "root": "F",
+              "quality": ""
+            },
+            {
+              "type": "lyric",
+              "text": "Meri yeh aankhon mein"
+            }
+          ]
+        },
+        {
+          "kind": "inline",
+          "tokens": [
+            {
+              "type": "lyric",
+              "text": "                 "
+            },
+            {
+              "type": "chord",
+              "raw": "[G]",
+              "root": "G",
+              "quality": ""
+            },
+            {
+              "type": "lyric",
+              "text": "Aankhon mein toh dekho"
+            }
+          ]
+        },
+        {
+          "kind": "blank"
+        },
+        {
+          "kind": "inline",
+          "tokens": [
+            {
+              "type": "lyric",
+              "text": "      "
+            },
+            {
+              "type": "chord",
+              "raw": "[C]",
+              "root": "C",
+              "quality": ""
+            },
+            {
+              "type": "lyric",
+              "text": "Kaisa naseeb hai mera"
+            }
+          ]
+        },
+        {
+          "kind": "inline",
+          "tokens": [
+            {
+              "type": "lyric",
+              "text": "          "
+            },
+            {
+              "type": "chord",
+              "raw": "[Am]",
+              "root": "A",
+              "quality": "m"
+            },
+            {
+              "type": "lyric",
+              "text": "Milke bhi na mujhe mila"
+            }
+          ]
+        },
+        {
+          "kind": "inline",
+          "tokens": [
+            {
+              "type": "lyric",
+              "text": "         "
+            },
+            {
+              "type": "chord",
+              "raw": "[F]",
+              "root": "F",
+              "quality": ""
+            },
+            {
+              "type": "lyric",
+              "text": "Meri yeh aankhon mein"
+            }
+          ]
+        },
+        {
+          "kind": "inline",
+          "tokens": [
+            {
+              "type": "lyric",
+              "text": "                 "
+            },
+            {
+              "type": "chord",
+              "raw": "[G]",
+              "root": "G",
+              "quality": ""
+            },
+            {
+              "type": "lyric",
+              "text": "Aankhon mein toh dekho"
+            }
+          ]
+        },
+        {
+          "kind": "blank"
+        },
+        {
+          "kind": "inline",
+          "tokens": [
+            {
+              "type": "lyric",
+              "text": "       "
+            },
+            {
+              "type": "chord",
+              "raw": "[C]",
+              "root": "C",
+              "quality": ""
+            },
+            {
+              "type": "lyric",
+              "text": "Teri adhuri si wafa"
+            }
+          ]
+        },
+        {
+          "kind": "inline",
+          "tokens": [
+            {
+              "type": "lyric",
+              "text": "            "
+            },
+            {
+              "type": "chord",
+              "raw": "[Am]",
+              "root": "A",
+              "quality": "m"
+            },
+            {
+              "type": "lyric",
+              "text": "Maangu main maangu aur na"
+            }
+          ]
+        },
+        {
+          "kind": "inline",
+          "tokens": [
+            {
+              "type": "lyric",
+              "text": "         "
+            },
+            {
+              "type": "chord",
+              "raw": "[F]",
+              "root": "F",
+              "quality": ""
+            },
+            {
+              "type": "lyric",
+              "text": "Meri yeh aankhon mein"
+            }
+          ]
+        },
+        {
+          "kind": "inline",
+          "tokens": [
+            {
+              "type": "lyric",
+              "text": "                 "
+            },
+            {
+              "type": "chord",
+              "raw": "[G]",
+              "root": "G",
+              "quality": ""
+            },
+            {
+              "type": "lyric",
+              "text": "Aankhon mein toh dekho"
+            }
+          ]
+        },
+        {
+          "kind": "blank"
+        },
+        {
+          "kind": "comment",
+          "text": "Verse 3"
+        },
+        {
+          "kind": "inline",
+          "tokens": [
+            {
+              "type": "chord",
+              "raw": "[F]",
+              "root": "F",
+              "quality": ""
+            },
+            {
+              "type": "lyric",
+              "text": "Dekho Dekho Kaisi kheenchi lakeerein"
+            }
+          ]
+        },
+        {
+          "kind": "inline",
+          "tokens": [
+            {
+              "type": "chord",
+              "raw": "[C]",
+              "root": "C",
+              "quality": ""
+            },
+            {
+              "type": "lyric",
+              "text": "Chahe bhi dil toh bhi na jeete"
+            }
+          ]
+        },
+        {
+          "kind": "inline",
+          "tokens": [
+            {
+              "type": "chord",
+              "raw": "[E7]",
+              "root": "E",
+              "quality": "7"
+            },
+            {
+              "type": "lyric",
+              "text": "Main iss daur "
+            },
+            {
+              "type": "chord",
+              "raw": "[Am]",
+              "root": "A",
+              "quality": "m"
+            },
+            {
+              "type": "lyric",
+              "text": "mein nahin "
+            },
+            {
+              "type": "chord",
+              "raw": "[G]",
+              "root": "G",
+              "quality": ""
+            }
+          ]
+        },
+        {
+          "kind": "blank"
+        },
+        {
+          "kind": "inline",
+          "tokens": [
+            {
+              "type": "chord",
+              "raw": "[F]",
+              "root": "F",
+              "quality": ""
+            },
+            {
+              "type": "lyric",
+              "text": "Dekho Dekho Kaisi baatein yahan ki"
+            }
+          ]
+        },
+        {
+          "kind": "inline",
+          "tokens": [
+            {
+              "type": "chord",
+              "raw": "[C]",
+              "root": "C",
+              "quality": ""
+            },
+            {
+              "type": "lyric",
+              "text": "Baatein yahi dekhoon jahan bhi"
+            }
+          ]
+        },
+        {
+          "kind": "inline",
+          "tokens": [
+            {
+              "type": "chord",
+              "raw": "[E7]",
+              "root": "E",
+              "quality": "7"
+            },
+            {
+              "type": "lyric",
+              "text": "Main is daur se "
+            },
+            {
+              "type": "chord",
+              "raw": "[Am]",
+              "root": "A",
+              "quality": "m"
+            },
+            {
+              "type": "lyric",
+              "text": "nahin"
+            }
+          ]
+        },
+        {
+          "kind": "blank"
+        },
+        {
+          "kind": "blank"
+        },
+        {
+          "kind": "blank"
+        }
+      ],
+      "uniqueChords": [
+        "Am",
+        "C",
+        "E7",
+        "F",
+        "G"
+      ]
+    },
+    "rivers": {
+      "frontmatter": {
+        "id": "rivers",
+        "title": "Rivers (placeholder)",
+        "artist": "Demo Artist",
+        "album": "Demo Album",
+        "key": "G",
+        "capo": 0,
+        "youtube_id": "dQw4w9WgXcQ",
+        "tags": [
+          "folk",
+          "acoustic"
+        ],
+        "scroll_map": [
+          {
+            "timeSec": 0,
+            "lineIndex": 0
+          },
+          {
+            "timeSec": 10,
+            "lineIndex": 4
+          },
+          {
+            "timeSec": 20,
+            "lineIndex": 8
+          }
+        ]
+      },
+      "ast": [
+        {
+          "kind": "inline",
+          "tokens": [
+            {
+              "type": "chord",
+              "raw": "[G]",
+              "root": "G",
+              "quality": ""
+            },
+            {
+              "type": "lyric",
+              "text": "Flowing through "
+            },
+            {
+              "type": "chord",
+              "raw": "[D/F#]",
+              "root": "D",
+              "quality": "",
+              "bass": "F#"
+            },
+            {
+              "type": "lyric",
+              "text": "valleys we "
+            },
+            {
+              "type": "chord",
+              "raw": "[Em7]",
+              "root": "E",
+              "quality": "m7"
+            },
+            {
+              "type": "lyric",
+              "text": "go"
+            }
+          ]
+        },
+        {
+          "kind": "inline",
+          "tokens": [
+            {
+              "type": "lyric",
+              "text": "Under the "
+            },
+            {
+              "type": "chord",
+              "raw": "[C]",
+              "root": "C",
+              "quality": ""
+            },
+            {
+              "type": "lyric",
+              "text": "bridges of "
+            },
+            {
+              "type": "chord",
+              "raw": "[G]",
+              "root": "G",
+              "quality": ""
+            },
+            {
+              "type": "lyric",
+              "text": "stone"
+            }
+          ]
+        },
+        {
+          "kind": "inline",
+          "tokens": [
+            {
+              "type": "lyric",
+              "text": "The "
+            },
+            {
+              "type": "chord",
+              "raw": "[C]",
+              "root": "C",
+              "quality": ""
+            },
+            {
+              "type": "lyric",
+              "text": "evening wind "
+            },
+            {
+              "type": "chord",
+              "raw": "[G]",
+              "root": "G",
+              "quality": ""
+            },
+            {
+              "type": "lyric",
+              "text": "whispers your "
+            },
+            {
+              "type": "chord",
+              "raw": "[D]",
+              "root": "D",
+              "quality": ""
+            },
+            {
+              "type": "lyric",
+              "text": "name"
+            }
+          ]
+        },
+        {
+          "kind": "inline",
+          "tokens": [
+            {
+              "type": "chord",
+              "raw": "[Em]",
+              "root": "E",
+              "quality": "m"
+            },
+            {
+              "type": "lyric",
+              "text": "Carried by "
+            },
+            {
+              "type": "chord",
+              "raw": "[C]",
+              "root": "C",
+              "quality": ""
+            },
+            {
+              "type": "lyric",
+              "text": "rivers back "
+            },
+            {
+              "type": "chord",
+              "raw": "[D]",
+              "root": "D",
+              "quality": ""
+            },
+            {
+              "type": "lyric",
+              "text": "home"
+            }
+          ]
+        },
+        {
+          "kind": "blank"
+        },
+        {
+          "kind": "comment",
+          "text": "Chorus"
+        },
+        {
+          "kind": "inline",
+          "tokens": [
+            {
+              "type": "chord",
+              "raw": "[G]",
+              "root": "G",
+              "quality": ""
+            },
+            {
+              "type": "lyric",
+              "text": "Oh, these "
+            },
+            {
+              "type": "chord",
+              "raw": "[D]",
+              "root": "D",
+              "quality": ""
+            },
+            {
+              "type": "lyric",
+              "text": "rivers, they "
+            },
+            {
+              "type": "chord",
+              "raw": "[Em]",
+              "root": "E",
+              "quality": "m"
+            },
+            {
+              "type": "lyric",
+              "text": "know"
+            }
+          ]
+        },
+        {
+          "kind": "inline",
+          "tokens": [
+            {
+              "type": "lyric",
+              "text": "Our "
+            },
+            {
+              "type": "chord",
+              "raw": "[C]",
+              "root": "C",
+              "quality": ""
+            },
+            {
+              "type": "lyric",
+              "text": "secrets and "
+            },
+            {
+              "type": "chord",
+              "raw": "[G]",
+              "root": "G",
+              "quality": ""
+            },
+            {
+              "type": "lyric",
+              "text": "sorrows we "
+            },
+            {
+              "type": "chord",
+              "raw": "[D]",
+              "root": "D",
+              "quality": ""
+            },
+            {
+              "type": "lyric",
+              "text": "stow"
+            }
+          ]
+        },
+        {
+          "kind": "inline",
+          "tokens": [
+            {
+              "type": "chord",
+              "raw": "[Em]",
+              "root": "E",
+              "quality": "m"
+            },
+            {
+              "type": "lyric",
+              "text": "Guide me to "
+            },
+            {
+              "type": "chord",
+              "raw": "[C]",
+              "root": "C",
+              "quality": ""
+            },
+            {
+              "type": "lyric",
+              "text": "shores I have "
+            },
+            {
+              "type": "chord",
+              "raw": "[G]",
+              "root": "G",
+              "quality": ""
+            },
+            {
+              "type": "lyric",
+              "text": "known"
+            }
+          ]
+        },
+        {
+          "kind": "inline",
+          "tokens": [
+            {
+              "type": "chord",
+              "raw": "[C]",
+              "root": "C",
+              "quality": ""
+            },
+            {
+              "type": "lyric",
+              "text": "Bring me back "
+            },
+            {
+              "type": "chord",
+              "raw": "[D]",
+              "root": "D",
+              "quality": ""
+            },
+            {
+              "type": "lyric",
+              "text": "home"
+            }
+          ]
+        },
+        {
+          "kind": "blank"
+        },
+        {
+          "kind": "blank"
+        },
+        {
+          "kind": "blank"
+        }
+      ],
+      "uniqueChords": [
+        "C",
+        "D",
+        "D/F#",
+        "Em",
+        "Em7",
+        "G"
+      ]
+    },
+    "starlight": {
+      "frontmatter": {
+        "id": "starlight",
+        "title": "Starlight (placeholder)",
+        "artist": "Demo Artist",
+        "key": "D",
+        "capo": 2,
+        "youtube_id": "M7FIvfx5J10",
+        "tags": [
+          "pop",
+          "ballad"
+        ],
+        "chord_shapes": {
+          "G": {
+            "fretting": [
+              3,
+              2,
+              0,
+              0,
+              0,
+              3
+            ],
+            "fingering": [
+              "3",
+              "2",
+              "",
+              "",
+              "",
+              "3"
+            ],
+            "baseFret": 1
+          },
+          "Em": {
+            "fretting": [
+              0,
+              2,
+              2,
+              0,
+              0,
+              0
+            ],
+            "fingering": [
+              "",
+              "2",
+              "3",
+              "",
+              "",
+              ""
+            ],
+            "baseFret": 1
+          }
+        }
+      },
+      "ast": [
+        {
+          "kind": "inline",
+          "tokens": [
+            {
+              "type": "chord",
+              "raw": "[G]",
+              "root": "G",
+              "quality": ""
+            },
+            {
+              "type": "lyric",
+              "text": "Meet me in the "
+            },
+            {
+              "type": "chord",
+              "raw": "[D]",
+              "root": "D",
+              "quality": ""
+            },
+            {
+              "type": "lyric",
+              "text": "starlight"
+            }
+          ]
+        },
+        {
+          "kind": "inline",
+          "tokens": [
+            {
+              "type": "chord",
+              "raw": "[Em]",
+              "root": "E",
+              "quality": "m"
+            },
+            {
+              "type": "lyric",
+              "text": "Where our "
+            },
+            {
+              "type": "chord",
+              "raw": "[C]",
+              "root": "C",
+              "quality": ""
+            },
+            {
+              "type": "lyric",
+              "text": "quiet hearts "
+            },
+            {
+              "type": "chord",
+              "raw": "[D]",
+              "root": "D",
+              "quality": ""
+            },
+            {
+              "type": "lyric",
+              "text": "play"
+            }
+          ]
+        },
+        {
+          "kind": "inline",
+          "tokens": [
+            {
+              "type": "chord",
+              "raw": "[G]",
+              "root": "G",
+              "quality": ""
+            },
+            {
+              "type": "lyric",
+              "text": "Hold the night "
+            },
+            {
+              "type": "chord",
+              "raw": "[D]",
+              "root": "D",
+              "quality": ""
+            },
+            {
+              "type": "lyric",
+              "text": "softly"
+            }
+          ]
+        },
+        {
+          "kind": "inline",
+          "tokens": [
+            {
+              "type": "chord",
+              "raw": "[Em]",
+              "root": "E",
+              "quality": "m"
+            },
+            {
+              "type": "lyric",
+              "text": "Till the "
+            },
+            {
+              "type": "chord",
+              "raw": "[C]",
+              "root": "C",
+              "quality": ""
+            },
+            {
+              "type": "lyric",
+              "text": "silver turns "
+            },
+            {
+              "type": "chord",
+              "raw": "[D]",
+              "root": "D",
+              "quality": ""
+            },
+            {
+              "type": "lyric",
+              "text": "gray"
+            }
+          ]
+        },
+        {
+          "kind": "blank"
+        },
+        {
+          "kind": "repeat",
+          "count": 2
+        },
+        {
+          "kind": "blank"
+        },
+        {
+          "kind": "blank"
+        },
+        {
+          "kind": "blank"
+        }
+      ],
+      "uniqueChords": [
+        "C",
+        "D",
+        "Em",
+        "G"
+      ]
+    },
+    "horizon": {
+      "frontmatter": {
+        "id": "horizon",
+        "title": "Horizon (placeholder)",
+        "artist": "Demo Artist",
+        "key": "C",
+        "capo": 0,
+        "tags": [
+          "indie",
+          "mid-tempo"
+        ]
+      },
+      "ast": [
+        {
+          "kind": "inline",
+          "tokens": [
+            {
+              "type": "chord",
+              "raw": "[C]",
+              "root": "C",
+              "quality": ""
+            },
+            {
+              "type": "lyric",
+              "text": "Lines of light on "
+            },
+            {
+              "type": "chord",
+              "raw": "[G/B]",
+              "root": "G",
+              "quality": "",
+              "bass": "B"
+            },
+            {
+              "type": "lyric",
+              "text": "morning seas"
+            }
+          ]
+        },
+        {
+          "kind": "inline",
+          "tokens": [
+            {
+              "type": "chord",
+              "raw": "[Am]",
+              "root": "A",
+              "quality": "m"
+            },
+            {
+              "type": "lyric",
+              "text": "Draw me out where "
+            },
+            {
+              "type": "chord",
+              "raw": "[F]",
+              "root": "F",
+              "quality": ""
+            },
+            {
+              "type": "lyric",
+              "text": "sky can breathe"
+            }
+          ]
+        },
+        {
+          "kind": "inline",
+          "tokens": [
+            {
+              "type": "chord",
+              "raw": "[C]",
+              "root": "C",
+              "quality": ""
+            },
+            {
+              "type": "lyric",
+              "text": "Every step a "
+            },
+            {
+              "type": "chord",
+              "raw": "[G]",
+              "root": "G",
+              "quality": ""
+            },
+            {
+              "type": "lyric",
+              "text": "pilgrim's prayer"
+            }
+          ]
+        },
+        {
+          "kind": "inline",
+          "tokens": [
+            {
+              "type": "chord",
+              "raw": "[Am]",
+              "root": "A",
+              "quality": "m"
+            },
+            {
+              "type": "lyric",
+              "text": "Every wave a "
+            },
+            {
+              "type": "chord",
+              "raw": "[F]",
+              "root": "F",
+              "quality": ""
+            },
+            {
+              "type": "lyric",
+              "text": "song we share"
+            }
+          ]
+        },
+        {
+          "kind": "blank"
+        },
+        {
+          "kind": "blank"
+        },
+        {
+          "kind": "blank"
+        }
+      ],
+      "uniqueChords": [
+        "Am",
+        "C",
+        "F",
+        "G",
+        "G/B"
+      ]
+    },
+    "ember": {
+      "frontmatter": {
+        "id": "ember",
+        "title": "Ember (placeholder)",
+        "artist": "Demo Artist",
+        "key": "E",
+        "capo": 0,
+        "tags": [
+          "rock"
+        ]
+      },
+      "ast": [
+        {
+          "kind": "inline",
+          "tokens": [
+            {
+              "type": "chord",
+              "raw": "[E]",
+              "root": "E",
+              "quality": ""
+            },
+            {
+              "type": "lyric",
+              "text": "Falling like an "
+            },
+            {
+              "type": "chord",
+              "raw": "[Bsus4]",
+              "root": "B",
+              "quality": "sus4"
+            },
+            {
+              "type": "lyric",
+              "text": "ember bright"
+            }
+          ]
+        },
+        {
+          "kind": "inline",
+          "tokens": [
+            {
+              "type": "chord",
+              "raw": "[C#m]",
+              "root": "C#",
+              "quality": "m"
+            },
+            {
+              "type": "lyric",
+              "text": "Echoes in the "
+            },
+            {
+              "type": "chord",
+              "raw": "[A]",
+              "root": "A",
+              "quality": ""
+            },
+            {
+              "type": "lyric",
+              "text": "quiet night"
+            }
+          ]
+        },
+        {
+          "kind": "inline",
+          "tokens": [
+            {
+              "type": "chord",
+              "raw": "[E]",
+              "root": "E",
+              "quality": ""
+            },
+            {
+              "type": "lyric",
+              "text": "All the roads that "
+            },
+            {
+              "type": "chord",
+              "raw": "[Bsus4]",
+              "root": "B",
+              "quality": "sus4"
+            },
+            {
+              "type": "lyric",
+              "text": "brought us here"
+            }
+          ]
+        },
+        {
+          "kind": "inline",
+          "tokens": [
+            {
+              "type": "chord",
+              "raw": "[C#m]",
+              "root": "C#",
+              "quality": "m"
+            },
+            {
+              "type": "lyric",
+              "text": "Hold the flame we "
+            },
+            {
+              "type": "chord",
+              "raw": "[A]",
+              "root": "A",
+              "quality": ""
+            },
+            {
+              "type": "lyric",
+              "text": "keep so dear"
+            }
+          ]
+        },
+        {
+          "kind": "blank"
+        },
+        {
+          "kind": "blank"
+        },
+        {
+          "kind": "blank"
+        }
+      ],
+      "uniqueChords": [
+        "A",
+        "Bsus4",
+        "C#m",
+        "E"
+      ]
+    },
+    "lanterns": {
+      "frontmatter": {
+        "id": "lanterns",
+        "title": "Lanterns (placeholder)",
+        "artist": "Demo Artist",
+        "key": "A",
+        "capo": 0,
+        "tags": [
+          "folk"
+        ]
+      },
+      "ast": [
+        {
+          "kind": "inline",
+          "tokens": [
+            {
+              "type": "chord",
+              "raw": "[A]",
+              "root": "A",
+              "quality": ""
+            },
+            {
+              "type": "lyric",
+              "text": "Lanterns on the "
+            },
+            {
+              "type": "chord",
+              "raw": "[E]",
+              "root": "E",
+              "quality": ""
+            },
+            {
+              "type": "lyric",
+              "text": "river bend"
+            }
+          ]
+        },
+        {
+          "kind": "inline",
+          "tokens": [
+            {
+              "type": "chord",
+              "raw": "[F#m]",
+              "root": "F#",
+              "quality": "m"
+            },
+            {
+              "type": "lyric",
+              "text": "Mark the miles that "
+            },
+            {
+              "type": "chord",
+              "raw": "[D]",
+              "root": "D",
+              "quality": ""
+            },
+            {
+              "type": "lyric",
+              "text": "never end"
+            }
+          ]
+        },
+        {
+          "kind": "inline",
+          "tokens": [
+            {
+              "type": "chord",
+              "raw": "[A]",
+              "root": "A",
+              "quality": ""
+            },
+            {
+              "type": "lyric",
+              "text": "Hands that hold and "
+            },
+            {
+              "type": "chord",
+              "raw": "[E]",
+              "root": "E",
+              "quality": ""
+            },
+            {
+              "type": "lyric",
+              "text": "hearts that mend"
+            }
+          ]
+        },
+        {
+          "kind": "inline",
+          "tokens": [
+            {
+              "type": "chord",
+              "raw": "[F#m]",
+              "root": "F#",
+              "quality": "m"
+            },
+            {
+              "type": "lyric",
+              "text": "Find their way back "
+            },
+            {
+              "type": "chord",
+              "raw": "[D]",
+              "root": "D",
+              "quality": ""
+            },
+            {
+              "type": "lyric",
+              "text": "home again"
+            }
+          ]
+        },
+        {
+          "kind": "blank"
+        },
+        {
+          "kind": "blank"
+        },
+        {
+          "kind": "blank"
+        }
+      ],
+      "uniqueChords": [
+        "A",
+        "D",
+        "E",
+        "F#m"
+      ]
+    },
+    "skylines": {
+      "frontmatter": {
+        "id": "skylines",
+        "title": "Skylines (placeholder)",
+        "artist": "Demo Artist",
+        "key": "Bb",
+        "capo": 1,
+        "youtube_id": "9bZkp7q19f0",
+        "tags": [
+          "pop"
+        ],
+        "scroll_map": [
+          {
+            "timeSec": 0,
+            "lineIndex": 0
+          },
+          {
+            "timeSec": 8,
+            "lineIndex": 3
+          }
+        ]
+      },
+      "ast": [
+        {
+          "kind": "inline",
+          "tokens": [
+            {
+              "type": "chord",
+              "raw": "[Bb]",
+              "root": "Bb",
+              "quality": ""
+            },
+            {
+              "type": "lyric",
+              "text": "Skylines bloom in "
+            },
+            {
+              "type": "chord",
+              "raw": "[Eb]",
+              "root": "Eb",
+              "quality": ""
+            },
+            {
+              "type": "lyric",
+              "text": "neon hues"
+            }
+          ]
+        },
+        {
+          "kind": "inline",
+          "tokens": [
+            {
+              "type": "chord",
+              "raw": "[Gm]",
+              "root": "G",
+              "quality": "m"
+            },
+            {
+              "type": "lyric",
+              "text": "Stories drawn in "
+            },
+            {
+              "type": "chord",
+              "raw": "[F]",
+              "root": "F",
+              "quality": ""
+            },
+            {
+              "type": "lyric",
+              "text": "city views"
+            }
+          ]
+        },
+        {
+          "kind": "inline",
+          "tokens": [
+            {
+              "type": "chord",
+              "raw": "[Bb]",
+              "root": "Bb",
+              "quality": ""
+            },
+            {
+              "type": "lyric",
+              "text": "Footsteps echo "
+            },
+            {
+              "type": "chord",
+              "raw": "[Eb]",
+              "root": "Eb",
+              "quality": ""
+            },
+            {
+              "type": "lyric",
+              "text": "down the line"
+            }
+          ]
+        },
+        {
+          "kind": "inline",
+          "tokens": [
+            {
+              "type": "chord",
+              "raw": "[Gm]",
+              "root": "G",
+              "quality": "m"
+            },
+            {
+              "type": "lyric",
+              "text": "Tracing every "
+            },
+            {
+              "type": "chord",
+              "raw": "[F]",
+              "root": "F",
+              "quality": ""
+            },
+            {
+              "type": "lyric",
+              "text": "silver sign"
+            }
+          ]
+        },
+        {
+          "kind": "blank"
+        },
+        {
+          "kind": "blank"
+        },
+        {
+          "kind": "blank"
+        }
+      ],
+      "uniqueChords": [
+        "Bb",
+        "Eb",
+        "F",
+        "Gm"
+      ]
+    }
+  }
+}
