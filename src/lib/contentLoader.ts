@@ -7,10 +7,17 @@ export async function fetchIndex(): Promise<{
   entries: SearchIndexEntry[];
   songs: Record<string, SongContent>;
 }> {
-  const res = await fetch(CONTENT_URL);
-  const base = await res.json() as { entries: SearchIndexEntry[]; songs: Record<string, SongContent> };
-  const local = getLocalIndex();
-  return mergeIndexes(base, local);
+  try {
+    const res = await fetch(CONTENT_URL, { cache: 'no-store' });
+    if (!res.ok) {
+      return getLocalIndex();
+    }
+    const base = await res.json() as { entries: SearchIndexEntry[]; songs: Record<string, SongContent> };
+    const local = getLocalIndex();
+    return mergeIndexes(base, local);
+  } catch {
+    return getLocalIndex();
+  }
 }
 
 export function makeSearch(entries: SearchIndexEntry[]): Fuse<SearchIndexEntry> {
