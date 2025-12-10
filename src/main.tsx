@@ -18,7 +18,7 @@ const router = createBrowserRouter([
     ]
   }
 ], {
-  // Handle GitHub Pages base via vite.config.ts base option
+  basename: import.meta.env.BASE_URL
 });
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
