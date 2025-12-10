@@ -123,6 +123,20 @@ export function saveLocalSong(song: SongContent): { entries: SearchIndexEntry[];
   return next;
 }
 
+export function deleteLocalSong(id: string): { entries: SearchIndexEntry[]; songs: Record<string, SongContent> } {
+  const current = getLocalIndex();
+  const entries = current.entries.filter(e => e.id !== id);
+  const { [id]: _removed, ...restSongs } = current.songs;
+  const next = { entries, songs: restSongs };
+  saveLocalIndex(next);
+  return next;
+}
+
+export function isSongLocal(id: string): boolean {
+  const current = getLocalIndex();
+  return Object.prototype.hasOwnProperty.call(current.songs, id);
+}
+
 export function mergeIndexes(
   base: { entries: SearchIndexEntry[]; songs: Record<string, SongContent> },
   local: { entries: SearchIndexEntry[]; songs: Record<string, SongContent> }

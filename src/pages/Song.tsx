@@ -1,6 +1,6 @@
 import React, { useEffect, useMemo, useRef, useState } from 'react';
-import { useParams } from 'react-router-dom';
-import { fetchIndex } from '../lib/contentLoader';
+import { useNavigate, useParams } from 'react-router-dom';
+import { deleteLocalSong, fetchIndex, isSongLocal } from '../lib/contentLoader';
 import { ParsedLine, SongContent } from '../types';
 import ChordBlock from '../components/ChordBlock';
 import AutoscrollControls from '../components/AutoscrollControls';
@@ -10,9 +10,11 @@ import chordDb from '../data/chords.json';
 import { applyCapo, preferredAccidentalForKey, transposeChordName } from '../lib/transpose';
 import html2canvas from 'html2canvas';
 import jsPDF from 'jspdf';
+import { extractYouTubeId } from '../lib/youtube';
 
 export default function Song(): JSX.Element {
   const { id } = useParams();
+  const nav = useNavigate();
   const [song, setSong] = useState<SongContent | null>(null);
   const [displayMode, setDisplayMode] = useState<'combined' | 'chords' | 'lyrics'>('combined');
   const [transpose, setTranspose] = useState<number>(() => Number(localStorage.getItem('pref_transpose') ?? 0));
@@ -63,6 +65,16 @@ export default function Song(): JSX.Element {
 
   const fm = song.frontmatter;
   const uniqueChords = song.uniqueChords;
+  const parsedYouTubeId = extractYouTubeId(fm.youtube_id ?? '');
+  const canDelete = isSongLocal(fm.id);
+
+  function onDelete() {
+    if (!canDelete) return;
+    const ok = window.confirm('Delete this song from your browser? This cannot be undone.');
+    if (!ok) return;
+    deleteLocalSong(fm.id);
+    nav('/');
+  }
 
   function exportAsPdf() {
     const el = contentRef.current!;
@@ -108,6 +120,13 @@ export default function Song(): JSX.Element {
         >
           <ChordBlock ast={song.ast} displayMode={displayMode} transpose={transpose} capo={capo} songKey={fm.key} />
         </article>
+        {canDelete && (
+          <div className="mt-3">
+            <button className="px-2 py-1 border rounded text-red-700 border-red-300" onClick={onDelete}>
+              Delete this song
+            </button>
+          </div>
+        )}
       </section>
 
       <aside className="space-y-6 lg:sticky lg:top-16 self-start">
@@ -156,12 +175,12 @@ export default function Song(): JSX.Element {
           />
         </div>
 
-        {fm.youtube_id && (
+        {fm.youtube_id && parsedYouTubeId && (
           <div className="border rounded p-4">
             <div className="font-medium mb-2">Tutorial video</div>
             <React.Suspense fallback={<div className="text-sm text-gray-500">Loading video…</div>}>
               <LazyYouTube
-                videoId={fm.youtube_id}
+                videoId={parsedYouTubeId}
                 onTime={t => setCurrentVideoTime(t)}
               />
             </React.Suspense>
@@ -170,6 +189,14 @@ export default function Song(): JSX.Element {
                 No sync map provided. See CONTRIBUTING.md for adding <code>scroll_map</code>.
               </p>
             )}
+          </div>
+        )}
+        {fm.youtube_id && !parsedYouTubeId && (
+          <div className="border rounded p-4">
+            <div className="font-medium mb-2">Tutorial video</div>
+            <p className="text-sm text-red-700">
+              Invalid YouTube link or ID in song metadata. Please use a valid YouTube URL or 11-character ID.
+            </p>
           </div>
         )}
 

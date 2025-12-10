@@ -3,6 +3,7 @@ import { useNavigate } from 'react-router-dom';
 import { collectUniqueChordsFromAst, saveLocalSong } from '../lib/contentLoader';
 import { parseTextToAst } from '../lib/chordParser';
 import type { ParsedLine, SongContent } from '../types';
+import { extractYouTubeId } from '../lib/youtube';
 
 function slugify(text: string): string {
   return text
@@ -47,6 +48,7 @@ export default function AddSong(): JSX.Element {
   function onSubmit(e: React.FormEvent) {
     e.preventDefault();
     const id = (idOverride || autoId || slugify(title) || `song-${Date.now()}`);
+    const normalizedYoutubeId = extractYouTubeId(youtubeId.trim()) ?? undefined;
     const song: SongContent = {
       frontmatter: {
         id,
@@ -54,7 +56,7 @@ export default function AddSong(): JSX.Element {
         artist: artist.trim(),
         key: keySig.trim(),
         capo: Number(capo) || 0,
-        youtube_id: youtubeId.trim() || undefined,
+        youtube_id: normalizedYoutubeId,
         tags: tags.length ? tags : undefined
       },
       ast,
@@ -66,6 +68,7 @@ export default function AddSong(): JSX.Element {
 
   function exportMarkdown() {
     const id = (idOverride || autoId || slugify(title) || `song-${Date.now()}`);
+    const normalizedYoutubeId = extractYouTubeId(youtubeId.trim()) ?? '';
     const fm = [
       '---',
       `id: ${id}`,
@@ -73,7 +76,7 @@ export default function AddSong(): JSX.Element {
       `artist: ${artist.trim()}`,
       `key: ${keySig.trim()}`,
       `capo: ${Number(capo) || 0}`,
-      youtubeId.trim() ? `youtube_id: ${youtubeId.trim()}` : '',
+      normalizedYoutubeId ? `youtube_id: ${normalizedYoutubeId}` : '',
       tags.length ? `tags: [${tags.map(t => `"${t}"`).join(', ')}]` : '',
       '---',
       ''
@@ -119,7 +122,7 @@ export default function AddSong(): JSX.Element {
             </div>
             <div>
               <label className="block text-sm text-gray-600 mb-1">YouTube ID (optional)</label>
-              <input className="w-full border rounded px-3 py-2" value={youtubeId} onChange={e => setYoutubeId(e.target.value)} placeholder="e.g. dQw4w9WgXcQ" />
+              <input className="w-full border rounded px-3 py-2" value={youtubeId} onChange={e => setYoutubeId(e.target.value)} placeholder="e.g. https://youtu.be/dQw4w9WgXcQ or dQw4w9WgXcQ" />
             </div>
           </div>
           <div className="grid sm:grid-cols-2 gap-3">
